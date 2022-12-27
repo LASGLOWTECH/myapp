@@ -1,0 +1,159 @@
+        
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>my calculator</title>
+    
+        
+        <style>
+        *{margin: 0;
+        box-sizing: border-box;
+      padding: 0;
+    scroll-behavior: smooth;}
+
+          body{
+            background-color: grey;
+          }
+
+          table{margin: 8% auto;
+          background-color:black;;
+          width: 100px;
+          border: 10px solid black;
+          height: 600px;
+          text-align: center;
+          border-radius: 40px;
+          padding: 10px  30px;
+          justify-content: center;
+          align-items: center;
+          
+         column-gap:10px;}
+#display{
+  width: 500px;
+  height: 60px;
+  font-size: 30px;
+  text-align: right;
+  float: AUTO;
+  color: black;
+  
+}
+
+#clear{
+  background-color: red;
+}
+
+input{font-size:40px ;
+padding: 20px;
+color:blue;
+background-color: cornsilk;
+box-shadow: 1px 9 white ;
+outline:0;
+border: 3px solid green;
+border-radius:6px;
+transform: translateY(1px);
+}
+
+.operator{
+  color: skyblue;
+  background-color: blue;
+  position: auto;
+}
+
+
+
+input:hover{
+color: black;
+background-color: teal;
+transition: 4s;
+}
+
+input:active{margin-top: 10px;
+}
+
+@media  screen  and   (max-width: 800px) {
+  
+  table{
+          background-color:black;;
+          width: 100px;
+          border: 10px solid black;
+          height: 500PX;
+          text-align: center;
+          border-radius: 40px;
+          padding: 10px px 30px;
+          margin: 8% auto;
+          
+         column-gap:10px;}
+#display{
+  width: 300px;
+  height: 30px;
+  font-size: 30px;
+  text-align: right;
+  float: AUTO;
+  color: black;
+  
+}
+  
+  }
+ 
+
+
+              </style>
+       </head>
+
+        
+       <body>
+            <form name="calculator">
+                               <table>
+
+         <!--IN THIS CASE I USED THE TABLE PROPERTY TO STYLED MY CALCULATOR INPUT-->
+                                
+              <tr>
+                  <td colspan="4" ><input type="text"  name="display" id="display" disabled> </td>
+              </tr>
+    
+    
+               <tr>
+                    <td> <input type="button" name="one"  value="1" onclick="calculator.display.value +='1' "></td>
+                   <td> <input type="button" name="two"  value="2" onclick="calculator.display.value +='2' "></td>
+                   <td> <input type="button" name="three"  value="3" onclick="calculator.display.value +='3' "></td>
+                   <td> <input type="button" class="operator" name="plus"  value="+" onclick="calculator.display.value +='+' "></td>
+               </tr>
+                  
+                  
+
+                   <tr>
+                     
+       <td> <input type="button" name="four"  value="4" onclick="calculator.display.value +='4' "></td>
+      <td> <input type="button" name="five"  value="5" onclick="calculator.display.value +='5' "></td>
+      <td> <input type="button" name="six" value="6" onclick="calculator.display.value +='6' "></td>
+      <td> <input type="button" class="operator" name="minus"  value="-" onclick="calculator.display.value +='-' "></td>
+                    </tr>
+
+                    <tr>             
+                        <td> <input type="button" name="seven"  value="7" onclick="calculator.display.value +='7' "></td>
+                        <td> <input type="button" name="eight"  value="8" onclick="calculator.display.value +='8' "></td>
+                        <td> <input type="button" name="nine"   value="9" onclick="calculator.display.value +='9' "></td>
+                   <td> <input type="button" class="operator" name="times"  value="x" onclick="calculator.display.value +='*' "></td>
+                        </tr>
+                   
+                    
+                 
+                   <tr>
+                      <td>
+                      <input type="button"  id="clear" name="clear" value="C"  onclick="calculator.display.value=''" ></td>
+                      <td> <input type="button" name="zero"  value="0" onclick="calculator.display.value +='0' "></td>
+                     <td> <input type="button" name="doit"  value="=" onclick="calculator.display.value =eval(calculator.display.value)"></td>
+                     <td> <input type="button" class="operator" name="divide"  value="/" onclick="calculator.display.value +='/'"></td>
+                      
+                     </tr>
+             </table>
+       </form>
+
+
+      
+   </body>
+    </html>
+
+

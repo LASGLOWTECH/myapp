@@ -1,0 +1,161 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* icons stylin */
+.icons{font-size: 10px;
+}
+
+#title {
+background-color: #ff4c68;
+color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 10% 7%;
+}
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+    .navbar{
+        padding: 0 0 4.5rem;
+    }
+
+    .navbar-brand{
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .nav-item{
+        padding: 0 15px;
+           }
+    
+           .nav-link{
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+           }
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.rotateimg{
+    width: 70%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* feature sections */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-item{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color:#ef8182;
+    margin:1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials{
+    text-align:center;
+    background-color: #ef8182;
+    color: #fff;
+    font-weight: bold;
+}
+
+.testimonial-item{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ef8182;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* pricing section  */
+
+#Pricing {
+padding: 100px;
+text-align: center;
+}
+
+.col-price {
+    padding:3% 2%;
+}
+
+/* CTA section */
+#cta {
+    text-align:center;
+    background-color: #ff4c68;
+    color: #fff;
+        padding: 7% 15%;
+        }
+
+.cta-heading{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* Footer section */
+
+#footer{
+    padding: 7% 15%;
+text-align: center;
+}
+
+.footer-item{
+    margin:  20px 10px;
+}
+
+@media (max-width: 1028px ) {
+    #title{
+        text-align: center;
+       }
+    .rotateimg{
+        position: static;
+        transform: rotate(0);
+    }
+}
+

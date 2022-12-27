@@ -1,0 +1,136 @@
+
+
+
+
+
+
+:root {
+   
+  --Montserat: 'Montserrat', sans-serif;
+  --Lobster: 'Lobster', cursive;
+  --Poppings:  'Poppins', sans-serif;
+  --Roboto:  'Roboto', sans-serif;
+  --Ubuntu:  'Ubuntu', sans-serif
+    
+}
+
+
+*{font-size: 20px;
+    margin: 0;
+    box-sizing: border-box;
+font-family:var(--Poppings) ;
+}
+
+
+#left{
+    background-color:#222a35 ;
+    height:auto;
+    color: white;
+  }
+  
+ h3{color: white;
+  text-decoration: none;}
+ .career{
+      color: #222a35;
+  }
+
+  
+  li{font-weight: 50px;
+line-height: 2;
+color:#222a35}
+  
+  #right{
+    background-color: white;
+    height:auto;
+    color: #222a35
+  }
+  
+    #top, #footer{
+      height:200px;
+      background-color:#222a35;
+      color: white;
+  
+    }
+  .icos{
+   
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  }
+  
+    #aug{
+      width:150px;
+      height: 150px;
+      border-radius: 50%;
+      border:  2px solid white;
+      
+    }
+    .info, .padata,.career1{
+      padding-top: 20px;
+    }
+    
+    .curi,#aug{margin-top: 20px;}
+  
+    .line{
+      border: 1px solid white;
+      width: 300px;
+      margin: auto;
+    }
+    .line2{
+      border: 1px solid #222a35;
+      width: 400px;
+      margin: 2px;
+    }
+  
+   
+    .icons{background-color:#ffffff;
+  border-radius: 50%;
+  color:#222a35;
+  width: 35px;
+  height: 35px;
+  
+  padding: 2px 2px;
+  font-size: 20px;
+  
+  
+  }
+  .texts{
+    padding-left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  /* .text2{
+   margin-right: 3px;
+    color: white;
+    font-size: 20px;} */
+  
+  td{
+    padding: 10px  10px;
+    border: none;
+    text-align: left;
+    font-size:20px ;
+  }
+  
+  .tabu{margin: 10px;}
+  
+  .texts a{text-decoration: none;
+  color: #ffffff;}
+  
+  .skill-level{
+      width:150px;
+      height: 10px;
+      background-color: white;
+  }
+  .skill-up:nth-child(1){
+      width:100px;
+      height: 10px;
+      background-color: #8b9cb4;}
+      h4{padding-top: 10px;}
+  
+      .peer2{float: right;
+     }
+  
+  
+     .peer{font-size: 20px;
+      font-weight: 400;
+     }

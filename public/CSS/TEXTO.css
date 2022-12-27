@@ -1,0 +1,140 @@
+
+*{ padding: 0 ;
+   margin: 0;
+   box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+body{  background-color: antiquewhite;
+
+}
+
+.items{
+  
+    background-image:linear-gradient(red, blue);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: auto;
+    border-radius: 30px;
+    margin: 7% auto;
+    
+}
+    /* aside section */
+ 
+/* COUNTER STYLING */
+#value{font-size: 70px;
+
+}
+h1{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-container{ border-radius:5px;
+
+}
+.Dcris, .Incris, .Reset{
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.style{
+  font-size:30px;
+  text-align: center;
+}
+
+/* QUESTION STYLIN */
+.mystyle.active{ 
+height: 300px;
+  
+}
+h1{margin:5% auto;
+text-align: center;
+color:seagreen}
+
+.artics.incris{
+  display: inline-block;
+}
+
+.plus-btn.hide{ display: none;
+  
+
+}
+
+.minus-btn.show{ display: block;
+  }
+
+
+.mystyle{ 
+  width: 350px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: seagreen;
+  margin: 5% auto;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+
+.qsection{display:inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: wheat;
+  align-items: center;
+  text-align: center;
+  margin:3% 7%;
+ 
+   }
+h3{
+  margin:5% 3% ;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20%;
+
+}
+.btns{background-color:seagreen;
+display: flex; 
+width: 30px;
+height: 30px;
+justify-content: center;
+align-items: center;
+padding: 2px 2px;
+color: white;
+border-radius: 3px;
+}
+
+.btns:hover{
+
+border: 2px solid white;
+}
+
+.minus-btn{font-size: 25px;
+padding: 2px 2px;
+font-weight: 500px;
+display: none;}
+
+.plus-btn{font-size: 25px;
+font-weight: 500px;
+padding: 2px 2px;}
+
+.artics{
+display:none;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  background-color: wheat;
+  align-items: center;
+  text-align: center;
+  margin:0% 7%;
+  font-family:Helvetica, sans-serif;
+ 
+}

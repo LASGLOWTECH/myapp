@@ -34,7 +34,7 @@ app.post("/", (req, res)=>{
 //  using mailchimp to arrange your data
  const data = {
     members:[{email_address:email, 
-     status:"transactional",
+     status:"subscribed",
     merge_fields:{ 
     FNAME:firstName, 
      SUBJECT:subject,

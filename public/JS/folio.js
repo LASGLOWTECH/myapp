@@ -4,11 +4,10 @@ const randomInfo = document.querySelector(".Do-it")
 // my skills object
 const prof = [
   { id:"a" , Work: "Web developer" },
- 
- 
   { id:"b" , Work: "Graphics Designer" },
+  {id:"d" , Work: "Ui/Ux Designer" },
   { id:"c" , Work: "Quantity Surveyor" },
-  { id:"d" , Work: "Freelancer" },
+  { id:"d" , Work: "Front-end Developer" },
 ]
 // mapping through
 const items = prof.map(item => {
@@ -126,4 +125,4 @@ window.addEventListener("scroll", myScroll);
 const today = document.querySelector("#currentD");
 console.log(now)
 const currentDate =new Date().getFullYear();
-today.innerHTML=currentDate
+today.innerText=currentDate

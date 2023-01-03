@@ -380,7 +380,8 @@ i.iconF{
 }
 
 
-i.iconF:hover{ opacity:0.5}
+i.iconF:hover{ opacity:0.5;
+}
 
 .you {
     text-align: center;

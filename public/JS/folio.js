@@ -123,6 +123,6 @@ window.addEventListener("scroll", myScroll);
 // DATE OBJECT
 
 const today = document.querySelector("#currentD");
-console.log(now)
+console.log(today)
 const currentDate =new Date().getFullYear();
-today.innerText=currentDate
+today.innerHTML= currentDate

@@ -448,7 +448,7 @@ margin:auto;  }
         margin: 2% auto;
 
         padding: 3px 3px;
-        height: 400px;
+        height: inherit;
         width: 350px;
     }
 

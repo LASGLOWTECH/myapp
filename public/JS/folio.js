@@ -33,7 +33,7 @@ function randonD() {
 
 
 
-
+// PROJECTS TO BE MAPPED
 
 
 
@@ -66,7 +66,7 @@ const Pro = document.querySelector("#camo");
 console.log(Pro);
 
 const Proud = projects.map(proj => {
-  return ` <div class="caption col-lg-3 col-md-4 col-xsm-12 text-center " > 
+  return ` <div class="caption col-lg-3 col-md-4 col-xsm-12 text-center key=${proj.id} " > 
     <image  src="images/${proj.img}" class="CAR" >
         <h2> ${proj.name}</h2>
         <a href="/${proj.link}"><i class="iconF ${proj.icon} aria-hidden="true  "></i></a>

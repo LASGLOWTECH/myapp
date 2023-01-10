@@ -38,7 +38,7 @@ function randonD() {
 
 
 const projects = [
-  {link:"Random quotes.html", icon:" fa fa-quote-left",  id:1, img:"webpack.jpg", name: "RANDOM QUOTES ",
+  {link:"/Random quotes.html", icon:" fa fa-quote-left",  id:1, img:"webpack.jpg", name: "RANDOM QUOTES ",
     },
 
   {
@@ -92,7 +92,7 @@ function validate() {
     return false;
   }
   else {
-    alert("messenge sent");
+    alert("Please wait for response");
     return true;
   }
 

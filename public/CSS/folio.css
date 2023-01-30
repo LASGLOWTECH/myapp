@@ -22,7 +22,7 @@
     --Roboto:  'Roboto', sans-serif;
     --Ubuntu:  'Ubuntu', sans-serif;
     --crimso: crimson;
-    --violet:blueviolet;
+    --violet:#5258FB;
     --box-shadow: #e9f5fd;
     --content: linear-gradient(crimson, #15172f )
 }
@@ -37,8 +37,11 @@
     font-family: var(--Roboto);
     font-weight: 900;
     color: var(--gradient-color1);
-    box-shadow: 2px 3px 3px crimson;
+   
+   
 }
+#brand{ width: 250px;
+    height: 70px;}
 
 /* span styling */
 
@@ -206,9 +209,10 @@ font-family: var(--Montserat);}
 .Shortnote {
     text-align: justify;
     font-size: 17px;
-    word-spacing: 2.5px;
+    word-spacing:normal;
     color: var(--shade-white);
     font-family: var(--Roboto);
+    line-height: 1.5;
     
 }
 
@@ -428,9 +432,9 @@ margin:auto;  }
         font-size: 30px;
         font-weight: 900;
         color: #e9f5fd;
-        box-shadow: 2px 2px;
+       
     }
-
+#brand{width: auto}
     .Homesec {
         text-align: center;
         margin: 3% 5%;
@@ -510,7 +514,7 @@ margin:auto;  }
 float: right;
 
 place-items: center;
-background-color: blueviolet;
+background-color:var(--violet);
 border-radius: 3px;
 height: 2rem;
 width: 2rem;

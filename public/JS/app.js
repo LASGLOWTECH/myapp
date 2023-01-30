@@ -26,26 +26,7 @@ console.log(romeo);
 const rentor = document.querySelector("#Zig");
 console.log(rentor);
 console.log(btn);
-// const   Quas = Quotes.map(terms => {
-//   return `        
-       
-// <div class ="randomQ text-center">
-// <article class="quotes ">
-//     <h3>"${terms.quotes}"</h3>
-// </article>
-// <p id="Zig">${terms.Autur}</p>
 
-
-// <span class="Tweat"><a href="@OmozemojeAugus1"><i class=" iconf fab fa-twitter">
-
-// </i></a> <button type="buutton" class="nexto">New quote</button></span>`
-
-
-
-// });
-
-// Qts.innerHTML=Quas.join("");
-// console.log(Qts)
 let curitems=7;
 window.addEventListener("DOMContentLoaded", yourFunc)
   

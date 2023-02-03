@@ -42,7 +42,7 @@ const projects = [
     },
 
   {
-    link:"SNAPP 1.html", icon:" fas fa-home",id: 2, img: "Dogcateagle.jpg", name: "ANIMALS GALLERY",
+    link:"Galler.html", icon:" fas fa-home",id: 2, img: "Dogcateagle.jpg", name: "ANIMALS GALLERY",
       },
 
   {

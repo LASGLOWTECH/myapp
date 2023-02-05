@@ -382,7 +382,7 @@ padding-top: 3%;}
 
 i.iconF{
     padding: 20px 20px;
-    font-size: 25px;
+    font-size: 5px;
     color: var(--violet);
 }
 
@@ -488,7 +488,7 @@ margin:auto;  }
 
     #Smile {
 
-        width: 350px;
+        width: 270;
           height: auto;
           margin: 3px auto;
           
@@ -531,7 +531,7 @@ margin:auto;  }
     .iconf{
         
         padding-left: 2px  ;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
@@ -587,7 +587,7 @@ margin:auto;  }
     margin: 0 15px;
     text-decoration: none;
     
-    font-size: 15px;
+    font-size: 20px;
 }
 
 /* Random quotes styling */

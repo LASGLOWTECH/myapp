@@ -99,25 +99,28 @@ function validate() {
 }
 
 
+
+
 // SCROLL LINK JS
 
 
-const myScroll=()=>
+
+window.addEventListener("scroll", function()
 {
 
-  const Toplink= document.querySelector(".top-link")
-console.log(Toplink)
+  const topLink= document.querySelector("#top-Link")
+console.log(topLink)
 const scrollHeight = window.pageYOffset;
-
 console.log(scrollHeight);
 
 if(scrollHeight >3000){
-  Toplink.classList.add("hide")}
-  else{Toplink.classList.remove("hide")}
-
+  topLink.classList.add("hide")}
+  else{topLink.classList.remove("hide")}
 }
 
-window.addEventListener("scroll", myScroll);
+);
+
+
 // ENDING
 
 // DATE OBJECT

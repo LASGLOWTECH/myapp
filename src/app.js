@@ -34,7 +34,7 @@ app.post("/", (req, res)=>{
 //  using mailchimp to arrange your data
  const data = {
     members:[{email_address:email, 
-     status:"Transactional",
+     status:"transactional",
     merge_fields:{ 
     FNAME:firstName, 
      SUBJECT:subject,
@@ -62,7 +62,7 @@ const options= {
     // else show failure website
     else{res.sendFile(__dirname+ "/failure.html")}
     response.on("data", (data)=> {
-        // console.log(JSON.parse(data));
+        console.log(JSON.parse(data));
 
     });
 // When the failure wbsite   loads a button would redirect you to te signup page

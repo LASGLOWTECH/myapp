@@ -92,7 +92,7 @@ function validate() {
     return false;
   }
   else {
-    alert("Please wait for response");
+    alert("Subscribed");
     return true;
   }
 

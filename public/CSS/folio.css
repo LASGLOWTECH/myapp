@@ -384,7 +384,7 @@ padding-top: 3%;}
 
 i.iconF{
     padding: 20px 20px;
-    font-size: 5px;
+    font-size: 20px;
     color: var(--violet);
 }
 
@@ -488,7 +488,7 @@ margin:auto;  }
     }
 
 body{overflow-x: hidden;
-margin: auto;}
+}
     #Smile {
 
         width: 250px;
@@ -637,7 +637,7 @@ padding: 3px 9px;
  place-items: center;
     height: 2rem;
     width: 2rem;
-    right: 1rem;
+    right: 2rem;
     bottom: 2rem;
     display: grid;
     position: fixed;

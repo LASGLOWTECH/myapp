@@ -2,10 +2,13 @@
 
 // require express, body-parser, request, https
 const express= require ("express");
+
+require("dotenv").config({path: './TEST.env'});
+
 const bodyparser= require("body-parser");
 const request= require("request");
 const https= require("https");
-require("dotenv").config();
+
 
  const app= express();
 
@@ -41,16 +44,17 @@ app.post("/", (req, res)=>{
      SUBJECT:subject,
      TEXTAREA:message,} }]
 };
-
+console.log('API-KEY-TOKEN: ', process.env.API-KEY-TOKEN);
 //  convert your javascript object above to a JSON FORMAT
  const jsonData=JSON.stringify(data);
  console.log(jsonData);
 
 const url="https://us11.api.mailchimp.com/3.0/lists/process.env.LIST-ID";
 
+
 const options= {
            method: "POST", 
-           auth:"austinosaz:process.env.API-KEY," }
+           auth:"austinosaz:" }
            console.log(options)
 
 
@@ -79,6 +83,6 @@ request.end();
 })
 
  app.listen(process.env.PORT ||3000, ()=>{
-    console.log("server is running on port 3000")
+    console.log("server is running on ")
  });
 

@@ -1,10 +1,9 @@
-// jshint esversion:6
+
 
 // require express, body-parser, request, https
 
 
-require('dotenv').config();
-console.log(Process.env.API-KEY-TOKEN)
+
 
 const express= require ("express");
 const bodyparser= require("body-parser");
@@ -13,6 +12,8 @@ const https= require("https");
 
 
  const app= express();
+ require('dotenv').config();
+
 
 // use to display static css page styling
 app.use(express.static("public"))
@@ -51,17 +52,17 @@ app.post("/", (req, res)=>{
  const jsonData=JSON.stringify(data);
  console.log(jsonData);
 
-const url="https://us11.api.mailchimp.com/3.0/lists/333afc14d1";
+const url="https://us11.api.mailchimp.com/3.0/lists/process.env.LIST-1D";
 
 
 const options= {
            method: "POST", 
-           auth:"austinosaz:e410b6e7be6685bc2b3757d05c63d69c-us11" }
+           auth:"austinosaz: process.env.API-KEY-TOKEN" }
            console.log(options)
-
+         
 
  const request= https.request( url, options, (response)=>{
-    // if page is successful show success websit
+    // if page is successful show success website
     console.log(response)
     if(response.statusCode === 200){
         res.sendFile( __dirname + "/success.html")
@@ -86,5 +87,6 @@ request.end();
 
  app.listen(process.env.PORT ||3000, ()=>{
     console.log("server is running on port 3000 ")
+    
  });
 

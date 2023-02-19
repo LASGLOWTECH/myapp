@@ -52,7 +52,7 @@ app.post("/", (req, res)=>{
  console.log(jsonData);
 
  const key=process.env.API_RANDOM_TOKEN;
- const iD= process.env.LIST_ID;
+ 
 const url="https://us11.api.mailchimp.com/3.0/lists/333afc14d1";
 
 

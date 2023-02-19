@@ -14,7 +14,6 @@ const https= require("https");
  const app= express();
  require('dotenv').config();
 
-
 // use to display static css page styling
 app.use(express.static("public"))
 
@@ -41,7 +40,7 @@ app.post("/", (req, res)=>{
 //  using mailchimp to arrange your data
  const data = {
     members:[{email_address:email, 
-     status:"transactional",
+     status:"subscribed",
     merge_fields:{ 
     FNAME:firstName, 
      SUBJECT:subject,
@@ -52,13 +51,15 @@ app.post("/", (req, res)=>{
  const jsonData=JSON.stringify(data);
  console.log(jsonData);
 
-const url="https://us11.api.mailchimp.com/3.0/lists/process.env.LIST-1D";
+ const key=process.env.API_RANDOM_TOKEN;
+ const iD= process.env.LIST_ID;
+const url="https://us11.api.mailchimp.com/3.0/lists/333afc14d1";
 
 
 const options= {
            method: "POST", 
-           auth:"austinosaz: process.env.API-KEY-TOKEN" }
-           console.log(options)
+           auth:"austinosaz: key" }
+           console.log(key)
          
 
  const request= https.request( url, options, (response)=>{

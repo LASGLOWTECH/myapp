@@ -323,9 +323,10 @@
           <h3>message me</h3>
 
           <!-- Form section Html -->
-          <form action="/" target="_blank" method="POST" onsubmit="return validate()">
+          <form id="form" method="POST" onsubmit="return validate()">
 
             <!--form section Section-->
+            <input type="hidden" name="access_key" value="ca199daf-1a7c-45f0-9adf-b3fda752eb10">    
             <div class="form-group">
               <label for="exampleFormControlInput1"></label>
               <input type="text" class="form-control" name="Name" id="exampleFormControlInput1" placeholder="Name">
@@ -356,12 +357,10 @@
               <div class="form-group">
                 <label for="exampleFormControlInput3"></label>
                 <input type="Submit" class="form-control" id="SUB" value="Submit">
-              
-          
-       
-          </form>
+    
         </div>
       </div>
+      <div id="result"></div>
       </form>
 
     </div>
@@ -392,7 +391,7 @@
     </section>
    
     <script src="./JS/folio.js"></Script>
-  
+  <script src="./JS/index.js"></Script>
  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 

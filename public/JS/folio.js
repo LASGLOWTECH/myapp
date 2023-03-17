@@ -92,7 +92,7 @@ function validate() {
     return false;
   }
   else {
-    alert("Subscribed");
+  
     return true;
   }
 

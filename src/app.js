@@ -29,12 +29,12 @@ app.get("/", (req, res)=>{
 
 // use app.post to post the data in your website
 app.post("/", (req, res)=>{
- var firstName= req.body.fName;
+ var Name= req.body.Name;
  var email= req.body.email;
  var subject=  req.body.subject;
  var message=  req.body.message;
  
- console.log(firstName);
+ console.log(Name);
 
 
 //  using mailchimp to arrange your data
@@ -42,9 +42,9 @@ app.post("/", (req, res)=>{
     members:[{email_address:email, 
      status:"subscribed",
     merge_fields:{ 
-    FNAME:firstName, 
+     NAME:Name, 
      SUBJECT:subject,
-     TEXTAREA:message,} }]
+     MESSAGE:message,} }]
 };
 
 //  convert your javascript object above to a JSON FORMAT
@@ -53,7 +53,7 @@ app.post("/", (req, res)=>{
 
  const key=process.env.API_RANDOM_TOKEN;
  
-const url="https://us11.api.mailchimp.com/3.0/lists/333afc14d1";
+const url="https://us11.api.mailchimp.com/3.0/lists/9ff7bb9af5";
 
 
 const options= {
@@ -85,6 +85,12 @@ request.end();
 
 
 })
+
+
+
+
+
+
 
  app.listen(process.env.PORT ||3000, ()=>{
     console.log("server is running on port 3000 ")

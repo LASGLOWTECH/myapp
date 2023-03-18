@@ -8,10 +8,10 @@ form.addEventListener('submit', function(e) {
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    result.innerHTML = "<h2 stycolor='red'>Sending...</h2>"
+    result.innerHTML = "<h2 style color='crimson'>Sending...</h2>"
 
     fetch('https://api.web3forms.com/submit', {
-            method: 'POST',
+            method: 'POST', node
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'

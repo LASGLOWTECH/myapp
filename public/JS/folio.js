@@ -82,17 +82,19 @@ Pro.innerHTML = Proud.join("");
 console.log(Proud);
 
 
-
+const ContactResult=document.querySelector("#Details")
 
 function validate() {
   var input = document.getElementById("exampleFormControlInput1").value;
   var text = document.getElementById("exampleFormControlTextarea1").value;
   if (input.trim() == "" || text == "") {
-    alert("please enter your details");
+     ContactResult.innerHTML="<p style='color:red; 'font-weight:bold'> Please fill in your details</p>"
+     ContactResult.reset()
+     
     return false;
   }
   else {
-  
+    ContactResult.innerHTML="<p style='color:green; 'font-weight:bold'> Details Received</p>"
     return true;
   }
 

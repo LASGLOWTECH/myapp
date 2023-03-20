@@ -595,41 +595,67 @@ body{overflow-x: hidden;
 }
 
 /* Random quotes styling */
+.QuotesTitle{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: var(--Roboto);
+    
+}
 .randomQ{ 
 margin: 2% auto;
 background-color: var(--shade-white);
-border-radius: 5%;
-width: 500px;
-height: 300px;
+border-radius: 10%;
+width: autop;
+height:inherit;
 color: var(--shade-whte);
 justify-content: center;
 align-items: center;}
 
 .quotes{
-    padding-top: 20% ;
+    padding: 3% 3% ;
     color: var(--light-color1);
+
+    
+}
+.quote-text{font-size: 25px;
+
 }
 
-.Tweat .iconf{
-    float:left;
-    padding-left: 3%  ;
-    color: var(--light-color1)
-}
 
-#nexto{
-    float: right;
-    margin-right:6% ;
-    border-radius: 5px;
-    padding: 3px 3px;
-    color:var(--primary-color)
-}
-
-#Zig{color: var(--light-color1);
-padding: 3px 9px;
+.authur{color: var(--light-color1);
+    padding: 2px 4px;
+    font-weight: 500;
+        
+    }
+    
+    
+    
+.Ibuttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: wheat;
+    
     
 }
 
 
+.tweetBtn.iconf{
+    color: var(--light-color1);
+    
+    background-color: #5258FB;
+    align-items: center;
+    margin:5 10%;
+}
+
+.nextBtn{
+    
+    background-color: var(--crimso);
+    color:var(--shade-white);
+    right:20%;
+    border:none
+}
 
 #top-Link{
     background-color:var(--violet);

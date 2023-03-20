@@ -29,7 +29,7 @@ form.addEventListener('submit', function(e) {
         })
         .catch(error => {
             console.log(error);
-            result.innerHTML = "<p style='color:red';>Something went wrong!</p>";
+            result.innerHTML = "<p style='color:red';> unable to send deyails</p>";
         })
         .then(function() {
             form.reset();

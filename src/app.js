@@ -20,9 +20,9 @@ app.post("/", (req, res) => {
     const API_KEY = process.env.API_RANDOM_TOKEN;
     const ID = process.env.LIST_ID;
     const SERVER_PREFIX = process.env.API_INDEX;
-    console.log(API_KEY)
-    console.log(ID)
-    console.log(SERVER_PREFIX)
+    
+    
+    
 
     const Name = req.body.Name;
     const email = req.body.email;

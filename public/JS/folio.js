@@ -46,7 +46,7 @@ const projects = [
       },
 
   {
-    link:"ANIMIE.html", icon:"fa fa-car",id: 3, img: "REDCAR.png" name: "CAR ANIMATION",
+    link:"ANIMIE.html", icon:"fa fa-car",id: 3, img: "REDCAR.png", name: "CAR ANIMATION",
     },
 
   {

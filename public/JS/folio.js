@@ -94,7 +94,7 @@ function validate() {
     return false;
   }
   else {
-    ContactResult.innerHTML="<p style='color:green; 'font-weight:bold'> Details Received</p>"
+    ContactResult.innerHTML="<p style='color:green; 'font-weight:bold'> you may pass</p>"
     return true;
   }
 

@@ -11,7 +11,7 @@ form.addEventListener('submit', function(e) {
     result.innerHTML = "<h2 style color='crimson'>Sending...</h2>"
 
     fetch('https://api.web3forms.com/submit', {
-            method: 'POST', node
+            method: 'POST', 
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
@@ -29,7 +29,7 @@ form.addEventListener('submit', function(e) {
         })
         .catch(error => {
             console.log(error);
-            result.innerHTML = "<p style='color:red';> unable to send deyails</p>";
+            result.innerHTML = "<p style='color:red';> unable to send details</p>";
         })
         .then(function() {
             form.reset();

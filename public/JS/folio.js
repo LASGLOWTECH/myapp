@@ -3,11 +3,11 @@ const randomInfo = document.querySelector(".Do-it")
 
 // my skills object
 const prof = [
-  { id:"a" , Work: "Web developer" },
+  { id:"a" , Work: "Web Developer" },
   { id:"b" , Work: "Graphics Designer" },
-  {id:"d" , Work: "Ui/Ux Designer" },
-  { id:"c" , Work: "Quantity Surveyor" },
-  { id:"d" , Work: "Front-end Developer" },
+  {id:"d" , Work: "UI/UX Designer" },
+
+ 
 ]
 // mapping through
 const items = prof.map(item => {
